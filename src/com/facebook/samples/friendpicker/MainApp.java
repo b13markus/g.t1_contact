@@ -269,8 +269,8 @@ public class MainApp extends FragmentActivity {
     private void onLoggedOut() {
         login.setText("login");
         mLogged = false;
-        profilePictureView.setStandartProfile();
-        pickFriendsButton.setVisibility(View.INVISIBLE);
+		       
+       pickFriendsButton.setVisibility(View.INVISIBLE);
 
     }
 
